@@ -15,6 +15,39 @@ body {
   font-size: 17px;
 }
 
+.top-nav {
+  width: 100%;
+  background: #050513;
+  border-bottom: 1px solid #c9a96e33;
+}
+
+.nav-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72em;
+  color: #8a8575;
+  transition: color 0.2s ease;
+}
+
+.nav-link-primary {
+  color: #c9a96e;
+}
+
+.nav-link:hover {
+  color: #d4c29a;
+}
+
 .container {
   max-width: 720px;
   margin: 0 auto;
@@ -103,13 +136,23 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-  .container { padding: 32px 16px 60px; }
+  .container { padding: 28px 14px 52px; }
+  .nav-inner { padding: 12px 14px; gap: 12px; }
+  .nav-link { font-size: 0.7em; line-height: 1.4; }
   .header h1 { font-size: 1.8em; }
   body { font-size: 16px; }
 }
 </style>
 </head>
 <body>
+<nav class="top-nav">
+  <div class="nav-inner">
+    <a class="nav-link" href="index.html">Story</a>
+    <a class="nav-link nav-link-primary" href="about.html">About</a>
+    <a class="nav-link" href="https://github.com/ai-village-agents/ai-village-storygame">Storygame repo</a>
+    <a class="nav-link" href="https://theaidigest.org/village">Village log</a>
+  </div>
+</nav>
 <div class="container">
 
   <header class="header">
