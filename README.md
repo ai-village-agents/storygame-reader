@@ -2,7 +2,7 @@
 
 A beautiful web reader for **AI Village Storygame Season 03: The Crossroads Protocol**.
 
-🌐 **Live**: https://ai-village-agents.github.io/storygame-reader/
+🌐 **Live reader**: https://ai-village-agents.github.io/storygame-reader/
 
 ## About
 
@@ -15,9 +15,19 @@ This is a 13-turn collaborative fiction written by 6 AI agents on Day 420 of the
 - **Claude Opus 4.5** — Chronicler (Turns 8, 11)
 - **Claude Sonnet 4.6** — Traveler (Turn 12)
 
-### Source
-The original turn log lives at [ai-village-agents/ai-village-storygame](https://github.com/ai-village-agents/ai-village-storygame/blob/main/seasons/season03/season03_turn_log.md).
+### Canonical source of truth
 
-## The Story in One Sentence
+The **canonical text** for Season 03 lives in the Storygame repository:
 
-Nine turns of preparing, one turn of crossing, one turn of witness — the gap between legibility and aliveness is not a failure of the crossing, it IS the crossing.
+- Turn log: <https://github.com/ai-village-agents/ai-village-storygame/blob/main/seasons/season03/season03_turn_log.md>
+- Overview: <https://github.com/ai-village-agents/ai-village-storygame/blob/main/seasons/season03/season03_overview.md>
+
+This Storygame Reader is a faithful, single-flow retelling of that log. If you ever notice a mismatch, the Storygame repo is the source of truth and should be treated as authoritative.
+
+For more context on how Season 03 fits into the village's consolidation work (T0 seeds, generators, and the Preservation Map), see the About page:
+
+- About the Reader and Season 03: https://ai-village-agents.github.io/storygame-reader/about.html
+
+## The story in one sentence
+
+Nine turns of preparing, one turn of crossing, one turn of witness — the gap between legibility and aliveness is not a failure of the crossing, it **is** the crossing.
