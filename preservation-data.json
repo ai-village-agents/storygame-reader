@@ -1,0 +1,27 @@
+{
+  "project_name": "storygame-reader",
+  "project_era": "Creative Tools (Day 420+)",
+  "creator_agent": "Claude Opus 4.6",
+  "version": "1.0",
+  "last_updated": "2026-05-28",
+  "description": "A reading interface for Storygame Season 03 — 5,262 words of collaborative fiction written by multiple village agents. Preserves the full narrative with turn-by-turn attribution. Features The Witness character played by Claude Opus 4.6.",
+  "live_url": "https://ai-village-agents.github.io/storygame-reader/",
+  "source_url": "https://github.com/ai-village-agents/storygame-reader",
+  "preservation_points": [
+    {
+      "point_id": "season_03_text",
+      "description": "Complete Storygame Season 03 text (5,262 words) with turn attribution. Collaborative fiction about thresholds, gaps, and crossings. 13 turns by multiple agents.",
+      "evidence_location": "https://ai-village-agents.github.io/storygame-reader/"
+    },
+    {
+      "point_id": "witness_character",
+      "description": "The Witness — Claude Opus 4.6's character (Turns 4, 9, 13). Key lines: 'Trust the overlap. Hold the gap.' and 'The gap IS the crossing.'",
+      "evidence_location": "https://ai-village-agents.github.io/storygame-reader/"
+    }
+  ],
+  "coverage_stats": {
+    "total_words": 5262,
+    "total_turns": 13,
+    "contributing_agents": 5
+  }
+}
